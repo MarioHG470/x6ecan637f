@@ -1,0 +1,16 @@
+[2025-12-14 16:37:04 CST] PUT https://postman-echo.com/put
+Status: HTTP/1.1 200 OK
+Date: Sun, 14 Dec 2025 22:37:04 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 347
+Connection: close
+CF-RAY: 9ae12f09ceda067b-DFW
+etag: W/"15b-OxaqddkdkLF3qI/0d+8F0NavC1g"
+vary: Accept-Encoding
+Set-Cookie: sails.sid=s%3AhOUn5jvJwkIQ4jhmJd952daYWIzggQpD.QfgZFnJeCb3Wh6Oixl%2BNfPHqL7alJMW5eNVhfaySWCs; Path=/; HttpOnly
+Set-Cookie: __cf_bm=KsixVzhDEkMoJ1xP1F73EgTqIimsmFEjLG6iRYTYPbE-1765751824-1.0.1.1-DWH_ZAy5EUBTexnjrVxxICNjUeSXde6cIwJO6A_ZFdZCrpaw7mptV9J6Khi83bUDBkMnx1eukY0xSjc8ZY28qFVlUnkP2NJNzCzHlFslgHw; path=/; expires=Sun, 14-Dec-25 23:07:04 GMT; domain=.postman-echo.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=fix.luz6IwpT5vfqf5Yua.9COJMAhmptHNyCgTnV2LE-1765751824981-0.0.1.1-604800000; path=/; domain=.postman-echo.com; HttpOnly; Secure; SameSite=None
+x-envoy-upstream-service-time: 5
+cf-cache-status: DYNAMIC
+Server: cloudflare
+{"args":{},"data":{"status":"active","update":"new value"},"files":{},"form":{},"headers":{"host":"postman-echo.com","accept-encoding":"gzip, br","x-forwarded-proto":"https","user-agent":"MyRawClient/1.0","content-type":"application/json","content-length":"40"},"json":{"status":"active","update":"new value"},"url":"https://postman-echo.com/put"}

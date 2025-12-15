@@ -1,0 +1,16 @@
+[2025-12-14 16:37:00 CST] GET https://postman-echo.com/get?baz=qux&foo=bar
+Status: HTTP/1.1 200 OK
+Date: Sun, 14 Dec 2025 22:37:02 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 213
+Connection: close
+CF-RAY: 9ae12ef9c8daf081-DFW
+etag: W/"d5-cwCSV34JNjPYLM4kd0IBf3qfeFc"
+vary: Accept-Encoding
+Set-Cookie: sails.sid=s%3AnCpd4yGeRc1bIqwlzgQ3L6KOGzi9HSY8.VrtmJkOT4rWW1zOn2MolT2a7d83TypGP5K8%2BEmwMsDE; Path=/; HttpOnly
+Set-Cookie: __cf_bm=JSxNa15nddH6cUlYvbmW61eN3pirfMZWYfpzV6am1MM-1765751822-1.0.1.1-HG7RRuxxbY9BGXX4XWzvUl2ExmN9VdYO.zevmqwmIo8wLcwKBgIsRbmJ3I2Xkm8IZ0r9XEPeQFCclFeLG9TaVEqENp8g_hnyzlFjM7hqsjw; path=/; expires=Sun, 14-Dec-25 23:07:02 GMT; domain=.postman-echo.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=W7euErIC0XEYdgNWyDYaytph4C9IOWCnR3IP7vBkw2c-1765751822419-0.0.1.1-604800000; path=/; domain=.postman-echo.com; HttpOnly; Secure; SameSite=None
+x-envoy-upstream-service-time: 5
+cf-cache-status: DYNAMIC
+Server: cloudflare
+{"args":{"baz":"qux","foo":"bar"},"headers":{"host":"postman-echo.com","accept-encoding":"gzip, br","x-forwarded-proto":"https","user-agent":"MyRawClient/1.0"},"url":"https://postman-echo.com/get?baz=qux&foo=bar"}

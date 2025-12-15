@@ -1,0 +1,32 @@
+[2025-12-14 16:29:33 CST] PUT https://postman-echo.com/put
+Status: HTTP/1.1 200 OK
+Date: Sun, 14 Dec 2025 22:29:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 347
+Connection: close
+CF-RAY: 9ae124060aeaf05f-DFW
+etag: W/"15b-OxaqddkdkLF3qI/0d+8F0NavC1g"
+vary: Accept-Encoding
+Set-Cookie: sails.sid=s%3Akybx7tJNR1uPXO_GFPhcCinh1T2ur3kP.H7jUbZ1%2FJ%2F2HGaUuf0S9tNSL%2Fxn70TMO2z0eJ26b4aI; Path=/; HttpOnly
+Set-Cookie: __cf_bm=PEJrA.tMmpuJNmFW3e2_2LJXqPTe3L1D3MKVTBTmB0c-1765751373-1.0.1.1-Bviu3AuzXsLWCuHve0E4DhZMSVh8bLP8E1N3d_GrshlhQ96PcErDA6eLs2Eu6bFVjGgMFeHdbPoa4SLoDxR3jzNNikcMNnqZ8.XMkhxfo4M; path=/; expires=Sun, 14-Dec-25 22:59:33 GMT; domain=.postman-echo.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=xCQvHOcugo8OJElJ5sxlIqEiyoAdqqNcea4B8OwMxiw-1765751373808-0.0.1.1-604800000; path=/; domain=.postman-echo.com; HttpOnly; Secure; SameSite=None
+x-envoy-upstream-service-time: 6
+cf-cache-status: DYNAMIC
+Server: cloudflare
+{"args":{},"data":{"status":"active","update":"new value"},"files":{},"form":{},"headers":{"host":"postman-echo.com","accept-encoding":"gzip, br","x-forwarded-proto":"https","user-agent":"MyRawClient/1.0","content-type":"application/json","content-length":"40"},"json":{"status":"active","update":"new value"},"url":"https://postman-echo.com/put"}
+[2025-12-14 16:29:33 CST] DELETE https://postman-echo.com/delete
+Status: HTTP/1.1 200 OK
+Date: Sun, 14 Dec 2025 22:29:34 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 254
+Connection: close
+CF-RAY: 9ae1240a7f67e591-DFW
+etag: W/"fe-ZEqi/oWxhFrDUe1SsAiAbzbg9AQ"
+vary: Accept-Encoding
+Set-Cookie: sails.sid=s%3AxufVPsP5GJe285mPW-f3TyNQ0-aRpTSD.rZll%2F43YJi%2B3M%2BggO8qA3KxhihStLKHEGoJ40W3zEJ0; Path=/; HttpOnly
+Set-Cookie: __cf_bm=RoD6GWx9JceArV0nDafikmvdpeXvFBJUqckTU4dkOuY-1765751374-1.0.1.1-ZS5EGwERykIq9m5y1.BpSuodBKPoyteqKk_XpxHt9baD_rIETtyw6qyFYAmwq_wONtnvevSRXuVsJghTmNQIk3Yiebclgc4QSC1h59A38IA; path=/; expires=Sun, 14-Dec-25 22:59:34 GMT; domain=.postman-echo.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=IimZEOb0JudBsG4XainlcvaNzxmT_yJ9Y5KV.uc_8eE-1765751374528-0.0.1.1-604800000; path=/; domain=.postman-echo.com; HttpOnly; Secure; SameSite=None
+x-envoy-upstream-service-time: 6
+cf-cache-status: DYNAMIC
+Server: cloudflare
+{"args":{},"data":{},"files":{},"form":{},"headers":{"host":"postman-echo.com","accept-encoding":"gzip, br","x-forwarded-proto":"https","user-agent":"MyRawClient/1.0","content-type":"application/json"},"json":null,"url":"https://postman-echo.com/delete"}
